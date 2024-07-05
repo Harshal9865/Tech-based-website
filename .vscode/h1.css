@@ -1,0 +1,28 @@
+h1
+{
+color: rgb(132, 0, 255);
+background-color: aquamarine;
+border-color: aquamarine;
+}
+p
+{
+color: blue;
+border-color: aquamarine;
+}
+details
+{
+background-color:grey;
+color:lavenderblush;
+}
+.rect
+{
+    height:60px;
+    width:1505px;
+    background-color: rgb(137, 73, 248);
+}
+.r
+{
+    height:59px;
+    width:1504px;
+    background-color: rgb(137, 73, 248)
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Emit is used for comment and (.class + Enter)is for div class(default) and (#id + Enter) is used to specify div id -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This represents forms in html</h1>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role">Role</label>
+            <input type="text" name="myRole" id="role">
+        </div><br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="myEmail" id="email">
+        </div><br>
+        <div>
+            <input type="submit" value="Submit Here">
+        </div><br>
+        <div>
+            <style>
+                div {
+                    line: break 10px;
+                    ;
+                }
+                h1 {
+                    background-image: url(https://media.istockphoto.com/id/907892712/photo/white-brick-wall-background.jpg?s=612x612&w=is&k=20&c=PoRxm5Gkd0qgbbwVW_46VVj-c9691D4gEHsKXZ8TRf0=)
+                }
+
+                body {
+                    background-color: rgba(26, 132, 203, 0.975)
+                }
+            </style>
+            <input type="date" name="myDate">
+        </div><br>
+        <div>
+            <label for="Eligibility">Eligiblity for bonous(Check if you are eliglble)</label>
+            <input type="checkbox" name="myEligiblity" checked id="Eligiblity">
+        </div>
+        <br>
+        <div>
+            <br>Gender:<br>
+            <label for="Male">Male:</label>
+            <input type="radio" name="myMale" id="Male">
+            <label for="Female">Female:</label><input type="radio" name="myFemale" id="Female">
+            <br>
+            <div>
+                <label for="Write">Write something about yourself:<br></label>
+                <textarea name="mytext" cols="20" rows="20" id=Write></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Sunbimt Now"><input type="reset" value="Reset">
+            </div>
+            <br>
+</body>
+</html>

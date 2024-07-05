@@ -1,0 +1,14 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const menu = document.querySelector('.settings-menu');
+    let isOpen = false;
+
+    menu.addEventListener('click', function() {
+        isOpen = !isOpen;
+        toggleMenu();
+    });
+
+    function toggleMenu() {
+        const bars = document.querySelectorAll('.bar');
+        bars.forEach(bar => bar.classList.toggle('change'));
+    }
+});
